@@ -1,1 +1,0 @@
-{"version":"15.4.0","type":"Added","ticket":"","description":"optimize LocationFilter code which find composite filters which need to be re-cached"}

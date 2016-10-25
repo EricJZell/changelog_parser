@@ -1,1 +1,0 @@
-{"version":"15.4.7","type":"Fixed","ticket":"#112056243","description":"Check if there are custom_headers in the layer_cake before adding them to the table."}

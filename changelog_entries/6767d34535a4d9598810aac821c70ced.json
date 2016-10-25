@@ -1,1 +1,0 @@
-{"version":"15.5.11","type":"Changed","ticket":"#131812005","description":"Inactive locations don't have a 'Show' link in the list page, and it's now possible to edit them. The edit page shows a red banner indicating that the location is inactive."}

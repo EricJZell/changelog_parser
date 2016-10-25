@@ -1,1 +1,0 @@
-{"version":"15.3.0","type":"Changed","ticket":"","description":"Removed SIMPLE_PLANOGRAMS argument from Report::CampaignWorkbook.new"}

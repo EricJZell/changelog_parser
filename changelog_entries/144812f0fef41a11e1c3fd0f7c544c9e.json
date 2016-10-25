@@ -1,1 +1,0 @@
-{"version":"15.4.6","type":"Fixed","ticket":"13038","description":"fix FixturePlacement#for_user method to compact blocking_fixtures as the hidden_fixture_types for users contain nil values"}

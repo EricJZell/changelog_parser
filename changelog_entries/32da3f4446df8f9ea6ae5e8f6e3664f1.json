@@ -1,1 +1,0 @@
-{"version":"15.5.0","type":"Fixed","ticket":"13185++","description":"ensure filters tied to active fixture templates get cached on fixture floorplan changes"}

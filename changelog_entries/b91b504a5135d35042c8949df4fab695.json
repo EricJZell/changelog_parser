@@ -1,1 +1,0 @@
-{"version":"15.4.0","type":"Changed","ticket":"#111615280","description":"Remove unnecessary calls to '.dup'."}

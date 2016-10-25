@@ -1,1 +1,0 @@
-{"version":"15.4.1","type":"Fixed","ticket":"","description":"Update 'show_been_reordered_radio_buttons' to return boolean for setting to work correctly when off"}

@@ -1,1 +1,0 @@
-{"version":"15.4.7","type":"Fixed","ticket":"","description":"(Aurora) Fixed 414 error so that an admin can retrieve larger numbers of locations when assigning to a user"}

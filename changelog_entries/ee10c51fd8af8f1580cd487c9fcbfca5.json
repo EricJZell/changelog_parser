@@ -1,1 +1,0 @@
-{"version":"15.5.10","type":"Added","ticket":"#129802365","description":"Fix: An announcement can be created with a start date superior than the end date."}

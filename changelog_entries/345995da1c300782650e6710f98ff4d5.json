@@ -1,1 +1,0 @@
-{"version":"15.4.6","type":"Fixed","ticket":"#110886364","description":"when changing a location attribute, ensure all affected filters are updated in the filter cache"}

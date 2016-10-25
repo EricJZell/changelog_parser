@@ -1,1 +1,0 @@
-{"version":"15.4.11.2.1","type":"Fixed","ticket":"13575","description":"Fixture#find_templates should only return templates that have is_active true"}

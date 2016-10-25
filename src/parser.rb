@@ -61,7 +61,6 @@ class ChangelogParser
   end
 
   def write_to_files
-    binding.pry
     @entries = @entries.uniq
     @entries.each do |entry|
       File.write("changelog_entries/#{SecureRandom.hex}.json", entry)
@@ -70,6 +69,4 @@ class ChangelogParser
 
 end
 
-output = ChangelogParser.new
-binding.pry
-puts "Goodbye"
+ChangelogParser.new

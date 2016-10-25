@@ -1,1 +1,0 @@
-{"version":"15.4.9.18","type":"Fixed","ticket":"13708","description":"clean files from rails/current/tmp/cache periodically"}

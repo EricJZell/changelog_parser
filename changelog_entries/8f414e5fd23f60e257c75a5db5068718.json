@@ -1,1 +1,0 @@
-{"version":"15.4.9.12","type":"Fixed","ticket":"#116249811","description":"LocationsController#index XLS download of LocationList uses Resque backgrounding system"}

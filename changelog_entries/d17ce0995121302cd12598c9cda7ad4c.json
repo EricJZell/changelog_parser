@@ -1,1 +1,0 @@
-{"version":"15.5.0","type":"Changed","ticket":"#114348513","description":"Creating a planogram with a taken name in the same campaign is not permitted and gives a message to the user. Copies are created with the planogram's name followed by \"(1)\", \"(2)\", etc."}

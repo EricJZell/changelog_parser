@@ -1,1 +1,0 @@
-{"version":"15.5.6","type":"Fixed","ticket":"#121528337","description":"Fix campaign creation, now it uses the right campaign_id when creating after another campaign"}

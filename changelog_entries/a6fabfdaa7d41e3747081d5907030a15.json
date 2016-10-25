@@ -1,1 +1,0 @@
-{"version":"15.5.10.1.1","type":"Changed","ticket":"#128576687","description":"Better error email handling when MegaDb file is missing."}

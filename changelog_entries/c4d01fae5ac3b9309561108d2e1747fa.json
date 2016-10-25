@@ -1,1 +1,0 @@
-{"version":"15.5.11","type":"Changed","ticket":"#14183","description":"Made CachedResult query calculations btwn :start and :stop markers"}

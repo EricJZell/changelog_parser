@@ -1,1 +1,0 @@
-{"version":"15.3.10","type":"Fixed","ticket":"13016","description":"Exception when re-rendering Feedback submission form after user error."}

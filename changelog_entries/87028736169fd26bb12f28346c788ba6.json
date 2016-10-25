@@ -1,1 +1,0 @@
-{"version":"15.4.9.12","type":"Fixed","ticket":"#116249627","description":"FloorplansController#list_floorplans to create pdf uses Resque backgrounding system"}

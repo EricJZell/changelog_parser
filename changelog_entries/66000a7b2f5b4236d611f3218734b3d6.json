@@ -1,1 +1,0 @@
-{"version":"15.4.0","type":"Changed","ticket":"","description":"Improve performance of group_by methods used by FixturesController#ajax_show"}

@@ -1,1 +1,0 @@
-{"version":"15.5.9.3","type":"Fixed","ticket":"#128434581","description":"Fixed bug that was making content comments have fixture as displays_on value"}

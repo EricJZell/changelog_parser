@@ -1,1 +1,0 @@
-{"version":"15.4.8","type":"Fixed","ticket":"#112649765","description":"Changed location filter dropdowns that showed too many filters. They now use FiltersHelper#user_location_filters or Filter#accessible."}

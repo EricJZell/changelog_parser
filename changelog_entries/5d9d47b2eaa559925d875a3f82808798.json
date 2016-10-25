@@ -1,1 +1,0 @@
-{"version":"15.5.9.3","type":"Fixed","ticket":"","description":"Fix the fixture_type_selection.html.erb partial so the 'select all' works for all reports"}

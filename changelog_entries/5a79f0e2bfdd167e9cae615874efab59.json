@@ -1,1 +1,0 @@
-{"version":"15.5.4","type":"Changed","ticket":"13801","description":"Names with symobols in Templates can now be copied correctly, all Templates can now copy correctly, not just FixtureTemplates"}

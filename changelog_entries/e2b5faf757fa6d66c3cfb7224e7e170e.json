@@ -1,1 +1,0 @@
-{"version":"15.5.9.3","type":"Fixed","ticket":"#128230961","description":"Do not allow copying placements from a previous campaign if planogram is empty"}

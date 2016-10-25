@@ -1,1 +1,0 @@
-{"version":"15.5.9.2","type":"Fixed","ticket":"o2","description":"Removed obsolete recurring jobs from O2 crontab."}

@@ -1,1 +1,0 @@
-{"version":"15.5.6","type":"Fixed","ticket":"","description":"Fixtures endpoint no longer failing with a bad signature for Fixture Group's hardwares method."}

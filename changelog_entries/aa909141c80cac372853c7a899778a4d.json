@@ -1,1 +1,0 @@
-{"version":"15.5.10.5","type":"Fixed","ticket":"#130683245","description":"Fix vzt:spot_id_users_creation task and use cid attribute instead of attr002"}

@@ -1,1 +1,0 @@
-{"version":"15.4.6","type":"Fixed","ticket":"","description":"Append original emails to email's body in non-production environments."}

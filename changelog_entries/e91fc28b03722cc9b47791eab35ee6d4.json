@@ -1,1 +1,0 @@
-{"version":"15.4.7","type":"Fixed","ticket":"#110995660","description":"Fixed bug in \"Locations displaying this planogram\" page that caused the same locations to be displayed for a planogram and a newer version of that planogram."}

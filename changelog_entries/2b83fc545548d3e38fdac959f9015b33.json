@@ -1,1 +1,0 @@
-{"version":"15.5.3","type":"Fixed","ticket":"#118755825","description":"Remove att specific filter caching so they are the same as everyone"}

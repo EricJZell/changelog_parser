@@ -1,1 +1,0 @@
-{"version":"15.4.9","type":"Fixed","ticket":"#113940825","description":"ensure atomic filter caching via transactions"}

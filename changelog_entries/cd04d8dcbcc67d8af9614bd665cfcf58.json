@@ -1,1 +1,0 @@
-{"version":"15.5.4","type":"Changed","ticket":"13778","description":"Fix race condition for filter caching when creating new campaign and creating/editing a location"}

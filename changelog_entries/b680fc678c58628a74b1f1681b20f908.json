@@ -1,1 +1,0 @@
-{"version":"15.5.0","type":"Fixed","ticket":"#114519663","description":"Validate sort_order length attribute of the FixtureType model."}

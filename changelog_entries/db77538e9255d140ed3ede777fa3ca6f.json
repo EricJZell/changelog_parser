@@ -1,1 +1,0 @@
-{"version":"15.5.9.3","type":"Fixed","ticket":"14163","description":"Fix bug where CIReport wouldn't work if there were no dummy locations."}

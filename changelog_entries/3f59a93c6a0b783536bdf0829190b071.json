@@ -1,1 +1,0 @@
-{"version":"15.4.0","type":"Changed","ticket":"111009918","description":"Redefine relation in fixture model to find deleted fixture_types."}

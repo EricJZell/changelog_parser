@@ -1,1 +1,0 @@
-{"version":"15.4.6","type":"Fixed","ticket":"13031","description":"Fix 404 for optus and nil exception when no fixture columns"}

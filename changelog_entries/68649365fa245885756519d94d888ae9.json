@@ -1,1 +1,0 @@
-{"version":"15.5.2","type":"Fixed","ticket":"#115875457","description":"Add a migration that removes all role associations on file root category."}

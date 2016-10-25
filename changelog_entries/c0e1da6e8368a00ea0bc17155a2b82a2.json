@@ -1,1 +1,0 @@
-{"version":"15.5.3","type":"Fixed","ticket":"#117733319","description":"skip a bad filter when recaching, and send error email to Support"}
