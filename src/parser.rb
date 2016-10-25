@@ -9,9 +9,14 @@ class ChangelogParser
     @entries = []
     @version = ""
     @type = ""
+  end
+
+  def call
     parse_changelog
     write_to_files
   end
+
+  private
 
   def get_version(line)
     line.match(/\[(.*?)\]/)[1]
@@ -69,4 +74,4 @@ class ChangelogParser
 
 end
 
-ChangelogParser.new
+ChangelogParser.new.call
