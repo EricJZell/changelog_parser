@@ -1,0 +1,1 @@
+{"version":"15.5.11","type":"Changed","ticket":"#125360271","description":"Fixed CompletionSnapshot save_initial_noncompliant_fixtures method signatures"}

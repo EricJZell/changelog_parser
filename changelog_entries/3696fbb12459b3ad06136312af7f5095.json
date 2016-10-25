@@ -1,0 +1,1 @@
+{"version":"15.4.12","type":"Fixed","ticket":"13601","description":"Add password_expires_at column to mass user upload"}

@@ -1,0 +1,1 @@
+{"version":"15.5.0","type":"Fixed","ticket":"13444","description":"Have rake task broadcast to Rabbit in batches, not ALL"}

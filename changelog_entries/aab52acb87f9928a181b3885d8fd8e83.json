@@ -1,0 +1,1 @@
+{"version":"15.4.10","type":"Fixed","ticket":"#113949173","description":"Current campaign showed in a newly created location's dashboard now is the newest campaign whose filter matches the location."}

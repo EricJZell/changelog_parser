@@ -1,0 +1,1 @@
+{"version":"15.3.2","type":"Fixed","ticket":"","description":"AFilters can have CSV values for IN, NOT IN conditions"}

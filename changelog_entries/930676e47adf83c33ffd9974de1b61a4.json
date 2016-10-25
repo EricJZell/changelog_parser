@@ -1,0 +1,1 @@
+{"version":"15.5.0","type":"Changed","ticket":"13427","description":"Fixed users with no assigned Regions cannot delete checked planograms"}

@@ -1,0 +1,1 @@
+{"version":"15.5.0","type":"Changed","ticket":"12962","description":"Validate sldb feed for vzw before sync and create a file of only good lines and emails line numbers of skipped lines to those who were receiving success emails"}

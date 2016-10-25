@@ -1,0 +1,1 @@
+{"version":"15.3.7","type":"Changed","ticket":"","description":"Improve Placement.place performance by ~20% by using matching_filters in the LPlacement steps"}

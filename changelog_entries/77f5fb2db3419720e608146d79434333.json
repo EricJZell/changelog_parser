@@ -1,0 +1,1 @@
+{"version":"15.5.9.3.1","type":"Changed","ticket":"#129071183","description":"Set 60 to the setting 'resolve_feedback_after_days' for TMobile. This will cause issues older than 60 days be automatically resolved."}

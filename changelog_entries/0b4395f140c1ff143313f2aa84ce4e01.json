@@ -1,0 +1,1 @@
+{"version":"15.5.0","type":"Changed","ticket":"","description":"In sites/att/app/models/dealer_open_enrollment.rb, change CID_MAP from a constant loaded at initialization, to a memoized variable loaded in a class method."}

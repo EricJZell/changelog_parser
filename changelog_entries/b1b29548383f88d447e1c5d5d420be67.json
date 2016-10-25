@@ -1,0 +1,1 @@
+{"version":"15.5.11","type":"Changed","ticket":"#130758833","description":"Adding content to certain planograms no longer returns 500 error."}

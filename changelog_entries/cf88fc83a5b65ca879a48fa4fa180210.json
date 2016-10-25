@@ -1,0 +1,1 @@
+{"version":"15.5.9.3","type":"Fixed","ticket":"#126136423","description":"Change sent date in orders view for o2, now is using shipped_at attribute instead of updated_at attribute"}

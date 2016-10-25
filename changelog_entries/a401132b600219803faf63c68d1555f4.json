@@ -1,0 +1,1 @@
+{"version":"15.5.4","type":"Changed","ticket":"#113164341","description":"An email is always sent when Feedbacks/ContentOrders are created. If it requires approval, an additional email is sent. Another email is sent if a content order is denied."}

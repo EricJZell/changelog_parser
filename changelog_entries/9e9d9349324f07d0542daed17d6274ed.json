@@ -1,0 +1,1 @@
+{"version":"15.5.9.3","type":"Fixed","ticket":"14095","description":"Change user_list_report.rb get_users query so that deleted locations are ignored"}

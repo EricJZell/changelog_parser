@@ -1,0 +1,1 @@
+{"version":"15.4.9","type":"Fixed","ticket":"#107816142","description":"Fixed All content XLS report, which gave no results if a category was selected. The file also contains two new columns: \"Fixture\" and \"New Item\"."}

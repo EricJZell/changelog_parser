@@ -1,0 +1,1 @@
+{"version":"15.5.3","type":"Fixed","ticket":"#118112685","description":"Fix 500 when user tries to view a location with no active campaigns"}

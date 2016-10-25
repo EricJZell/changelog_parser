@@ -1,0 +1,1 @@
+{"version":"15.4.9","type":"Fixed","ticket":"#113010851","description":"Boolean conditions in location filters now show a dropdown with the options."}

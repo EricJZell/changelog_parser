@@ -1,0 +1,1 @@
+{"version":"15.5.7","type":"Fixed","ticket":"#118563857","description":"Prevent contents warehouse migration from failing if some already columns exist."}

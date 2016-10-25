@@ -1,0 +1,1 @@
+{"version":"15.3.0","type":"Fixed","ticket":"","description":"region_children.html.haml partial traverses region hierarchy correctly."}

@@ -1,0 +1,1 @@
+{"version":"15.5.2.3","type":"Fixed","ticket":"","description":"Campaigns created by BBY Imports were setting their being_at to the end of day Sunday instead of the beginning"}

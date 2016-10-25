@@ -1,0 +1,1 @@
+{"version":"15.4.9.12","type":"Fixed","ticket":"#118139161","description":"Editing a Campaign to make it Active or Future will recache filters"}

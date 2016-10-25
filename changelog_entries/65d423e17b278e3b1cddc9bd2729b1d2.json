@@ -1,0 +1,1 @@
+{"version":"15.4.5","type":"Fixed","ticket":"","description":"Fix hook to update Filter Cache on Location attribute change to use \"future\" campaigns instead of \"unlaunched\" campaigns"}

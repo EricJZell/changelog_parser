@@ -1,0 +1,1 @@
+{"version":"15.5.6","type":"Fixed","ticket":"13640","description":"Do not cache assets on server, but do cache them on browser"}

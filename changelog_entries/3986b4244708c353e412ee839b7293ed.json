@@ -1,0 +1,1 @@
+{"version":"15.4.7","type":"Fixed","ticket":"#112700557","description":"Fix Available Planograms table: sorting by any of the headers makes the number of available planograms change."}

@@ -1,0 +1,1 @@
+{"version":"15.5.9.3","type":"Fixed","ticket":"14129","description":"Fix \"Attachment provided without message body\" on JobberWorker emails with attachments."}

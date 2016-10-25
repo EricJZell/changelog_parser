@@ -1,0 +1,1 @@
+{"version":"15.5.3.2","type":"Fixed","ticket":"#119477995","description":"Could not recache filters for all campaigns when bringing them over from r12"}

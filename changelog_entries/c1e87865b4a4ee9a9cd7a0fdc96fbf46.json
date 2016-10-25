@@ -1,0 +1,1 @@
+{"version":"15.5.9.3.1","type":"Fixed","ticket":"#14183","description":"Fix dashboard Rake tasks on Cricket, including CachedResult behavior"}

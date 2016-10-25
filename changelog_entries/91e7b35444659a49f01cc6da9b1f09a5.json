@@ -1,0 +1,1 @@
+{"version":"15.3.5","type":"Fixed","ticket":"12922","description":"Editing content no longer causes 500 error when the alayout structure resembles bby's."}

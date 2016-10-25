@@ -1,0 +1,1 @@
+{"version":"15.4.0","type":"Fixed","ticket":"","description":"Made filters helper stop blowing up when there wasn't a user"}

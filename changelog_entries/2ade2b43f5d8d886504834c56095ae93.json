@@ -1,0 +1,1 @@
+{"version":"15.4.9","type":"Fixed","ticket":"13260","description":"[13260](https://redmine.rbmtechnologies.com/issues/13260) Email sending tool is now rate limited and thus mass emails should work."}

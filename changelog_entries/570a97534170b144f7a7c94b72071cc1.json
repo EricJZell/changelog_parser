@@ -1,0 +1,1 @@
+{"version":"15.4.9.12","type":"Fixed","ticket":"13586","description":"Pog Assigner should ignore records older than the current campaign’s begin_at date"}

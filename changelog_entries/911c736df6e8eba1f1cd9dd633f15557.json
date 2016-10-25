@@ -1,0 +1,1 @@
+{"version":"15.5.4","type":"Fixed","ticket":"#119949705","description":"In SIMPLE_PLANOGRAMS, compliance images are now tied to the campaign of the planogram the image was uploaded for."}

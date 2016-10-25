@@ -1,0 +1,1 @@
+{"version":"15.4.9","type":"Changed","ticket":"","description":"Change payload being sent to OrderFront Encryption API to include user data of the user making the request. The authorization token is removed, relying solely on the shared encryption key for authentication."}

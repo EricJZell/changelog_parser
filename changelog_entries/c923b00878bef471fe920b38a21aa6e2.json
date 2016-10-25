@@ -1,0 +1,1 @@
+{"version":"15.4.1","type":"Fixed","ticket":"","description":"improve Placement::Status performance, and facilitate Placement testing for different clients/campaigns/locations"}

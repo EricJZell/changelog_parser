@@ -1,0 +1,1 @@
+{"version":"15.5.7","type":"Changed","ticket":"#123813361","description":"Fix Floorplan endpoint for Magellan, it was rendering the wrong fixtures for ATT"}

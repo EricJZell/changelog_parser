@@ -1,0 +1,1 @@
+{"version":"15.4.0","type":"Added","ticket":"","description":"Migration to transfer O2 virtual fixture data from old o2 column into the FixtureType exclude_from_compliance column, and adjust the Virtual Fixture attribute to point to that column"}

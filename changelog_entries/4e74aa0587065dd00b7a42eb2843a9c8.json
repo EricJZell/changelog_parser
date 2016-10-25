@@ -1,0 +1,1 @@
+{"version":"15.5.2","type":"Changed","ticket":"","description":"Modify ComplianceSnapshot to run all accessible, active locations, using the current campaign for each location"}

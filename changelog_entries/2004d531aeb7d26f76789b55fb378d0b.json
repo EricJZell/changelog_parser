@@ -1,0 +1,1 @@
+{"version":"15.4.8.1","type":"Fixed","ticket":"13232","description":"Fix order of before_filters to fix the redirect for users with expired passwords."}

@@ -1,0 +1,1 @@
+{"version":"15.4.6","type":"Changed","ticket":"13084","description":"Change the BBY SSO URL for VMM's logout link in `bby_site_config.yml`."}

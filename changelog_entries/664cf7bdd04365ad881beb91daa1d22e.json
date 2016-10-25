@@ -1,0 +1,1 @@
+{"version":"15.5.9.3.1","type":"Fixed","ticket":"#113164341","description":"Fixed encoding error in rake task pcs:process_content_feed"}
