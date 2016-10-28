@@ -1,215 +1,204 @@
 ## [15.5.11] 2016-10-25
 ### Changed
 - [#131307241] Feedback Categories follow the setup order in Compliance and Execution Report
-- [#111333670] Remove removed content from fixture view #6334
 - [#131924627] Update Critical Information Translations
-- [#131812005] Inactive locations don't have a 'Show' link in the list page, and it's now possible to edit them. The edit page shows a red banner indicating that the location is inactive.
-- [#130758833] Adding content to certain planograms no longer returns 500 error.
-- [#115458083] Add out of stock indication to orders form
-- [#130041321] Fixes to Save button enabled/disabled state
 - [#130040363] Shorten title field and update text on Create/Edit Comment UI
 - [#130041321] Improve style for Create/Edit Comment page buttons
 - [#129365621] Refactor required fields for Comments forms
-- [#129840941 ]Fix regression in saving Content Comments
 - [#129478513] Label box around conditions to display comment "Selected Conditions" on Create and Edit page for both POG and Content to be consistent.
-- [#129477623] Fix tab names for "Create POG Critical Information" and "Create Content Critical Information" to not include an
 - [#129385729] Create Comment Views: revert to old style buttons
-- [#129366351] Add buttons for Cancel / Save along top right of both the Create and Edit POG Comment pages
-- [#129386479] Edit Comment forms should follow changes to the Create Comment forms
-- [#128321949] Add a Magellan like preview to Create Item Comment
-- [#131116965] Fixed Totango configuration warning
+- [#129386479] Edit Comment form is updated to be consistent with the Create Comment form
 - [#14183] Made CachedResult query calculations btwn :start and :stop markers
-- [#131806789] Copy content: Remove checkbox for "Update Planograms in this campaign to use copies"
-- [#131116965] rake compliance:snapshot needs the new ComplianceSnapshot signature
 - [#131116965] Compliance Snapshot calculates compliance as count of fixtures which are planogrammed and compliant divided by those that are planogrammed
-- [#131116965] Rake task for Compliance to write today's compliances to a report
-- [#131116965] Rake task for today's compliance includes data on how the dashboard calculates compliance
-- [#131116965] TemplatesForFixtures needs to consider fixture_types that act as another fixture type
 - [#131116965] Completion Snapshot uses initially noncompliant fixtures as the basis for calculations.
-- [#125360271] Fixed CompletionSnapshot save_initial_noncompliant_fixtures method signatures
-- [#131116965] Use an effective date for ComplianceSnapshot based on a start date
-- [#131116965] Fixed compliance snapshot to use correct effective date in test.
-- [#126678041] For CVD region rollup cache, weed out orphaned locations
-- [#117133925] Take existing content placements into account when calculating planning
 - [#131116965] VmmComplianceSnapshot: creates compliance records without using Orion
 - [#12664005] Ensure CompletionSnapshot and VmmComplianceSnapshot run each night for all clients
-- [#131116965] remove new line in cron job
-- [#131116965] Correct current calculation of location completion to use effective_date
-- [#131116965] Can't run Completion Snapshot if there isn't a current campaign for completion
 - [#130922177] Scheduled region-location-rollup cache update with snapshot task
-- [#12664005] Ensure CompletionSnapshot and VmmComplianceSnapshot run each night for all clients
-- [#119930823] CompletionSnapshot
 - [#131116965] Make Compliance Snapshot for Optus run at 10:32 PM Sydney Austrailia time
-- [#131116965] Changed crontabs to reflect customer locations for running compliance snapshot (see PR 5167)
-- [#131116965] Hooked up non-orion CVD v1.9.4
+- [#131116965] Changed crontabs to reflect customer locations for running compliance snapshot
 - [#131733141] Hooked up CVD v1.9.5 (compliance color-coding fix)
+- [#117133925] Take existing content placements into account when calculating planning
 ### Fixed
-- [#129712983] Add initial merchandising date for locations.
 - [#128595011] SAP should not change during location feed for tmobile.
 - [#132237015] Correct start campaign text on comment form
+- [#129477623] Fix tab names for "Create POG Critical Information" and "Create Content Critical Information"
+- [#129840941] Fix regression in saving Content Comments
+- [#130758833] Adding content to certain planograms no longer returns 500 error.
+- [#130041321] Fixes the enabled/disabled state of the 'Save' button on the Create Comment form
+- [#131116965] Fixed Totango configuration warning
+- [#131116965] Added the new ComplianceSnapshot signature to fix rake compliance:snapshot
+- [#131116965] TemplatesForFixtures now consider fixture_types that act as another fixture type
+- [#125360271] Fixed CompletionSnapshot save_initial_noncompliant_fixtures method signatures
+- [#131116965] Fixed compliance snapshot to use correct effective date in test.
+- [#126678041] For CVD region rollup cache, weed out orphaned locations
+- [#131116965] Correct current calculation of location completion to use effective_date
+- [#131116965] Can't run Completion Snapshot if there isn't a current campaign for completion
+### Added
+- [#131812005] It is now possible to edit inactive locations
+- [#115458083] Add 'out of stock' indication to orders form
+- [#129366351] Add buttons for Cancel / Save along top right of both the Create and Edit POG Comment pages
+- [#128321949] Add a Magellan like preview to Create Item Comment
+- [#131116965] Rake task for Compliance to write today's compliances to a report
+- [#131116965] Rake task for today's compliance includes data on how the dashboard calculates compliance
+- [#129712983] Add initial merchandising date for locations.
+### Removed
+- [#111333670] Remove removed content from fixture view
+- [#131806789] Copy content: Remove checkbox for 'Update Planograms in this campaign to use copies'
 
 ## [15.5.10.5] 2016-09-30
 ### Fixed
-- [#130683245] Fix vzt:spot_id_users_creation task and use cid attribute instead of attr002
+- [#130683245] Fix vzt:spot_id_users_creation task to use cid attribute instead of attr002
 
 ## [15.5.10.4] 2016-09-29
 ### Fixed
-- [14344] VHA Magellan 'create issue' including unexpected categories
-- [128576687] VzT: Import OMMExport-SMS Feed
-- [127994667] Creating reference files shows full list of active and deleted folders
+- [14344] Fix VHA Magellan 'create issue' from including unexpected categories
+- [127994667] Deleted categories are no longer displayed when creating a Reference File
+### Added
+- [128576687] Add VzT 'Import OMMExport-SMS Feed' task to R15
 
 ## [15.5.10.3] 2016-09-27
 ### Fixed
-- [#131006979] Some Fixture Details are not Loading correctly.
+- [#131006979] Fixed: Some Fixture Details are not Loading correctly.
 - [#131193445] Content orders can now be placed on VHA in Magellan
 
 ## [15.5.10.2] 2016-09-23
 ### Changed
-- [#129569779] Store Tools in Locations's dashboard page now loads correctly
-- [#129702857] Wasn't redirecting correctly when the user has only one location
-- Fix vha ordering with magellan_view config in place for rel v15.5.10.2
-- [#130683245] Vzt: Bring over the r12 cronjobs to r15 and convert time to UTC time in crontabs.
-- [#130683289] UBC: Bring over the r12 cronjobs to r15 and convert time to UTC time in crontabs.
-- [#129461809] / [#130127719] multiple fixes to the Content Count Report.
-- [#126533073] corrected some failing migrations for VZT
-- [#130825549] contents now have number labels by default for all remaining r12 clients
-- [#127118429] VZT: Assigned permitted operations to required roles for existing fixture types
-- [#127930023] UBC: Roles & Permissions
-- [#127757907] New VZT locations now only have one user auto-created
-- [#130686701] Order functionality supressed on Magellan for Cox, VZT, UBC
-- [#14282] Enabled VHA ordering in Magellan
 - [#128576687] Updated processing of VZT Location Feed and associated email.
-- [#126074379] Brought UBC code to r15
-- [#127929889] Updated VZT Roles and permissions for r15
-- [#130932749] Added 'Order' Link for VZT when a Fixture with POP is viewed on a floorplan.
+- [14218] Update VHA upload_orders task crontab entry
+### Fixed
+- [#129569779] Store Tools in Locations's dashboard page now loads correctly
+- [#129702857] Fixed VZT Dashboard screen to redirect correctly when the user has only one location
+- Fix VHA ordering with magellan_view config in place for R15
+- [#126533073] Fixed some failing migrations for VZT on R15
+- [#127757907] New VZT locations now only have one user auto-created
+- [#130127719] multiple fixes to the Content Count Report.
 - [#130990433] Corrected VZT order link on Contents List page
 - [#130321743] Corrected contents of POP tab for VZT
 - [#126687271] Magellan: User can no longer view Issues tab without appropriate feedback permissions.
-- [#130945103] Removed trash icons that allowed deleting of orders in Magellan.
-- [14239] Save planogram properties when creating a new planogram
-- [14218] Update VHA upload_orders task crontab entry
 - [14247] Fix vha orders report
+### Added
+- [#130683245] Add VZT r12 cronjobs to r15 and convert time to UTC time in crontabs.
+- [#130683289] Add UBC r12 cronjobs to r15 and convert time to UTC time in crontabs.
+- [#130825549] Add number labeling to contents on planograms for clients being upgraded to R15
+- [#127118429] Add permitted fixture type operations to required roles for VZT
+- [#127930023] Add Roles & Permissions for UBC
+- [#14282] Enabled VHA ordering in Magellan
+- [#126074379] Added UBC code to R15
+- [#127929889] Add VZT Roles and permissions for r15
+- [#130932749] Added 'Order' Link for VZT when a Fixture with POP is viewed on a floorplan.
+- [14239] Save planogram properties when creating a new planogram
+### Removed
+- [#130686701] Order functionality supressed on Magellan for Cox, VZT, UBC
+- [#130945103] Removed trash icons that allowed deleting of orders in Magellan.
 
 ## [15.5.10.1.1] 2016-09-20
 ### Changed
-- updated Cap crontabs with missing entries
-- updated Cap crontabs with UTC times
-- update order flag in cap one site config
-- fixed Cap fixture perms
-- [#128576687] Better error email handling when MegaDb file is missing.
+- Update order flag in cap one site config
+### Fixed
+- Updated Cap crontabs with missing entries
+- Updated Cap crontabs with UTC times
+- Fixed Cap permitted Fixture Type operations
+- [#128576687] Fixed error email handling when MegaDb file is missing.
 
 ## [15.5.10.1] 2016-09-16
 ### Fixed
-- [#128576687] VzT: Import OMMExport-SMS Feed.
-- [#128576687] VzT: Import OMMExport-SMS Feed
-- [#127118467] Update fixturetype default permission for ubc
-- [#130056801] Rename fixture_comment action to pog_comment
-- [#129716717] wrap text in autocomplete search reference file
-- [#129711595] Load reference.scss only if the file exists
-- [#129955449] Change cap one sso configuration
-- [#129959409] Use cid field instead of attr002 for vzt r12 client
-- [#130056787] Fix 500 error when going to find files link
-- [#129718731] migration to change some categories options from array to string
-- [#129537341] Bring back new action in CommentsController
+- Make Cap One SSO use Simple Login link
+- [#129711595] Fix CSS 404 error in the console by only loading reference.scss if the file exists
+- [#129959409] Fix 500 Error when using Upload Spreadsheet for location by using 'cid' field instead of 'attr002' for VZT
+- [#130056787] Fix 500 error when going to 'find files' link
+- [#129718731] Fix 500 Server Error when creating a New Location by changing some category options from array to string for VZT
+- [#129537341] Fix 404 Error when trying to Add Planograms Comments in COX
 - [#129969715] Fix broken assets image on Capital One Location Dashboard
 - [#129494759] Fix locations search page
-- [#130127719] Fix Content Count Report Loading up to 200%.
+- [#130127719] Fix Content Count Report status bar from loading up to 200%.
 ### Changed
-- Make Cap One SSO Simple Login
-- change prod to production in cap one site config
+- [#129955449] Update Capital One SSO Configuration
+- [#130056801] Rename fixture_comment action to pog_comment
+### Added
+- [#128576687] Added VzT 'Import OMMExport-SMS Feed' task to R15
+- [#127118467] Add Fixture Type Operation permissions for ubc
+- [#129716717] Add a 'wrap text' feature in autocomplete search reference file
 
 ## [15.5.10] 2016-09-02
 ### Added
-- [#126687271] Change permission being used by Magellan to control Feed… #5903
-- [#redmine14086] Added issue-related permissions and assign to rbm role
-- [#redmine14100] Hooked up CVD v1.8.16.8 (No data fix)
-- [#127929889] VZT Roles and Permissions.
-- [#129537341] 404 Error is Displayed when trying to Add Planograms Comments.
+- [#127929889] Added VZT Roles and Permissions.
+- [#127215025] Create new links in POG Comments subnav
+- [#116069157] Add Container type feed for VHA in R15
+- [#115356201] Add VZT R12 filters to R15
+- [#119087493] Add Planogram Name and Exclude DIY Content on  Optus Sales Order report
+### Changed
+- [#126431355] Import validator now counts the total number of errors on an imported file, instead of the number of lines with errors
+### Fixed
+- [#126687271] Fix permissions so unauthorized users can not view the issues tab in Magellan
+- [14086] Fixed: Unable to view or resolve issues on floorplan (permissions update)
+- [14100] Hooked up CVD v1.8.16.8 (No data fix)
+- [#129537341] Fix 404 Error when trying to Add Planograms Comments.
 - [#129802365] Fix: An announcement can be created with a start date superior than the end date.
-- [#130056801] Fix 404 error when user try to create a new comment.
+- [#130056801] Fix 404 error when a user tries to create a new comment.
 - [#129711595] Fix CSS 404 error in the console when cancelling a new File in Reference Section.
 - [#128690829] Fix error when trying to delete an image from the gallery.
 - [#128098575] Fix 500 error when user try to upload Locations Spreadsheet.
-- [14123] Fix 500 error in redefine_fixture_groups
-- [14112] allow att to group a fixture group if exists
-- [#127219049] Create new create planogram comment page
-- [#127215025] Create new links in POG Comments subnav
-- [#127118381] COX: Assign permitted operations to required roles.
-- [#127118281] Assign permitted operations to required roles for existing fixture types.
-- [#116069157] Container type feed for VHA migration
-- [#115356201] Convert VZT R12 filters to R15 filters
-- [#127301971] CAP Roles And Permissions
-- [#116729873] Bring over CAP code from r12.
-- [#115355973] Convert CAP filters to r15.
-- [#116729695] Bring over COX code from R12 to R15.
-- [#127930135] COX: Roles And Permissions
-- [#119087493] Add Planogram Name and Exclude DIY on Sales Order report
-- [#128355373] Cap One: problem with a label in the bottom of the flash view, it is partial visible
-- [#128332849] Cap One: label for not excecuted fixture is wrong, it's for compliance terminology
-- [#126431355] Import validator counts amount of total errors.
-- [#126631159] Let user know when planogram update fails and don't let it do a partial update
-- [#14112] allow att to group a fixture group if exists
+- [#14123] Fix 500 error in redefine_fixture_groups
+- [#14112] Fixed: Unable to Save floorplan Changes at Store of the Future
+- [#128355373] Cap One: Fix Planogram labels in the flash view from being only partially visible
+- [#128332849] Cap One: Fix translations for compliance terminology
+- [#126631159] Fix planogram update fails by preventing a 'partial update' and displaying an error message to the user
 - [#13551] Fixed Campaign Item Tracking Not populating
-- [13551] vzw crontab.prod.primary to crontab.production.primary
-- [13551] Fix UpsShipmentEvent type name
+- [#13551] Fix UpsShipmentEvent type name
 - [#13749] Fix "All Content" report for Layout Based Planogram clients
-- [13749] Fix All Content Report for fixtures with no language
-- Remove ability to scope the layout placement groups list by start and end campaigns
-- Remove ability to scope the layouts list by start and end campaign
-- [#128695577] CAP ONE: compliance terms should be change by executed.
+- [#13749] Fix All Content Report for fixtures with no language
+- [#128695577] Fix Capital One compliance terms by updating translations
 - [#115440587] Make styling changes to CAP ONE login page
-- [#128790065] Add floorplan_tabs new_items group_by config to COX site.
+- [#128790065] Fix 500 error in New Item Tab in view planogram page by adding floorplan_tabs new_items  and group_by config to COX
 - [#129969715] Fix broken assets image on Capital One Location Dashboard
 - [#127757907] Delete Multiple UserIDs for Locations in VZT.
+### Removed
+- Remove ability to scope the layout placement groups list by start and end campaigns
+- Remove ability to scope the layouts list by start and end campaign
 
 ## [15.5.9.9] 2016-10-05
 ### Fixed
-- [14294] Fix Issue Report when options are selected
+- [14294] Fix Issue Report for O2 when certain options are selected
 - [14363] Fix Content Orders Needing Approval Tool for o2
-- [#131763717] Fix approval_needed scope removing an extra sentence which is failing on pcs.
+- [#131763717] Fix Content Orders Needing Approval For Metro PCS upgrade to R15
 - [14315] Fix o2 process_content_feed rake task to handle ISO-8859-1 characters like "£".
 ### Changed
 - [14315] o2 process_content_feed rake task makes a backup of the feed file on the SFTP server, rather than deleting it from the server.
 
 ## [15.5.9.8] 2016-09-30
 ### Fixed
-- [#14321] Fix O2 retcon feed processing
-- [#14315] Prevent O2 rake tasks from running on UAT
+- [14315] Prevent O2 rake tasks from running on UAT
 
 ## [15.5.9.6.1] 2016-09-24
 ### Fixed
 - [14321] Fix O2 RETCON feed rake task
 
 ## [15.5.9.6] 2016-09-20
+### Added
+- [#130684211] Add PCS cronjobs from R12 to R15 and convert times to UTC
 ### Fixed
-- [#14301] Fixed 500 error on request for single icon
+- [#14301] Fixed popup 500 error when loading a floorplan on BBY
 - [#127994667] Deleted folders no longer visible in Reference Files
-- [#129882015] No longer creates multiple locations with same CID on import
-- [#125317621] Magellan can now limit how many pieces an individual store can order
-- [#130759665] New content link works in Magellan again.
-- [#130945103] Removed trash icons that allowed deleting of orders in Magellan.
+- [#129882015] Fixed: Duplicate locations with the same CID are being created in Tmobile after location feed
+- [#130759665] Fixed: New content link works in Magellan again.
+- Magellan fix: Fixtures are now viewable.
 ### Changed
-- [#130684211] brought over r12 crojobs and converted to UTC
-
-## [15.5.9.6] 2016-09-20
-### Fixed
-- Magellan fix, updated version. now fixtures are viewable.
+- [#125317621] Magellan can now limit how many pieces an individual store can order
+### Removed
+- [#130945103] Removed trash icons that allowed deleting of orders in Magellan.
 
 ## [15.5.9.5] 2016-09-19
+### Added
+- Added Order Approval Process for PCS to R15
+### Changed
 ### Fixed
 - O2: convert time to UTC time in crontabs
-- O2: Score on compliance report doesn't match score on location dashboard
-- O2: weekly_compliance_report failing
-- Order Approval Process in PCS Integration
-- Magellan: User can view Issues tab when user does not have access to anything feedback related
-- PCS: Permission adjustments
+- O2: Fixed: Score on compliance report doesn't match score on location dashboard
+- O2: Fixed: weekly_compliance_report failing
+- Fixed: User can view Issues tab in Magellan when user does not have access to anything feedback related
+- Fix PCS Permissions
 - PCS: Make sure Reference file links in POG comments work and are linked as expected
-- Creating reference files shows full list of active and deleted folders
-- Campaign Item Tracking Not populating
-- Removal of old unused Regions
-- Admin dashboard not producing correct data
-- Limit orders on Magellan
-- 500 Error on print planogram view
+- Fixed: Campaign Item Tracking Not populating
 
 ## [15.5.9.4.2] 2016-09-28
 ### Fixed
@@ -218,25 +207,27 @@
 
 ## [15.5.9.4.1] 2016-09-14
 ### Fixed
-- Skuter_run was failing with invalid option
+- Fixed: Skuter_run was failing with invalid option
 - BBY Compliance and Execution report now matches spec
 ### Changed
 - [14366] Update the Public Cert for Optus SSO (Production)
 
 ## [15.5.9.4] 2016-09-14
+### Added
+- [127125747] Magellan now transitions from fixture to floorplan view with back button
+- [127821877] Orders file goes to Archive folder for Cricket
+### Changed
+- [125317621] Limit orders on Magellan
+- [127486321] Fixture selection improved in Magellan
+- [130327917, 129962183, 129716389] BBY Compliance and Execution report improvements
 ### Fixed
 - [13902] Fix layout placement group page by changing dropdown menus to load as you type
 - [130383555] Hide all the CPC reports on the release branch
-- [125317621] Limit orders on Magellan
-- [127486321] Fixture selection improved in Magellan
-- [127109449] Magellan: Sku find failure warning on findable item
-- [127125747] Magellan now transitions from fixture to floorplan view with back button
+- [127109449] Magellan: Fix Sku find failure warning on findable item
 - [127988857] Announcements tab not displayed on IE8
 - [124273291] Munpack won't find some email attachments
-- [130202297] Locations subnav shows duplicated entries
-- [130327917, 129962183, 129716389] BBY Compliance and Execution report improvements
-- [128763035] Magellan logging out even with activity
-- [127821877] Orders file goes to Archive folder for Cricket
+- [130202297] Fix Locations subnav from showing duplicated entries
+- [128763035] Fix Magellan logging out even with activity
 
 ## [15.5.9.3.3.1] 2016-09-15
 ### Fixed
@@ -244,13 +235,8 @@
 
 ## [15.5.9.3.3] 2016-09-14
 ### Fixed
-- [129619369] aka [14206] added item_desciption to endpoints and translation #5934
-- Magellan rel_v15_5_9_3_3_rc_at_104608ec
-- Added item_description to the new-issue form
-- Moved itemDescription to inside zendesk guard
-- [14193] AT&T: Report an Issue Form on Desktop (see #129533651 below)
-
-## [15.5.9.3.2] 2016-09-12
+- [129619369] Fixed: 'Report an Issue' Form missing Item Description on Magellan
+- [14193] Fixed: AT&T 'Report an Issue' Form on Desktop not transferring Item Description, Order Number or NSK Request Number data
 
 ## [15.5.9.3.1] 2016-09-08
 ### Added
@@ -258,14 +244,13 @@
 - [#126260535] Create weekly job to resolve issues after specified number of days
 ### Fixed
 - [#130232215] Device Brand Presence Report now renders a helpful message if the client doesn't have the necessary configurations for the report.
-- [#130194133] Some permission adjustments for PCS.
+- [#130194133] Fix some permissions for PCS.
 - [#113164341] Fixed encoding error in rake task pcs:process_content_feed
-- [#126687271] Change permission being used by Magellan to control Feed… #5903
 - [#129533651] Reporting an issue on AT&T now sends attributes to Archway Zendesk that were not being sent.
 - [#14183] Fix dashboard Rake tasks on Cricket, including CachedResult behavior
 ### Changed
-- [#129962183] Locations now filtered by a location filter on complinace and execution report
-- [#129071183] Set 60 to the setting 'resolve_feedback_after_days' for TMobile. This will cause issues older than 60 days be automatically resolved.
+- [#129962183] Locations now filtered by a location filter on compliance and execution report
+- [#129071183] Set 'resolve_feedback_after_days' to 60 for TMobile. This will cause issues older than 60 days be automatically resolved.
 - [#113164341] PCS: The URL for USFI is no longer in the site config. It's in the LayerCake instead.
 
 ## [15.5.9.3.0.1] 2016-09-08
@@ -274,58 +259,57 @@
 - [14227] ATT Global Login on Mobile directing to desktop version of iPOG
 
 ## [15.5.9.3] 2016-08-31
-### Fixed
-- [14116] Add back missing columns on SOTF_Wall report for ATT
-- [14163] Fix bug where CIReport wouldn't work if there were no dummy locations.
+### Changed
+- [#128664067] Improve display of planning counts when content hasn't yet been generated.
+- [#14174] Change column headers from 'Wearables' to 'Specialty' and 'BMG' to 'Misc'
+- [#14175] Change columns in SOTF wall report and excludes 5 additional fixtures from explorer wall columns
+- [#126167907] Hero Device with type -1 does not get any accessory columns
 - [14107] Update filter recache_via_location to include planogram_assignment_filters
-- [#126136423] Change sent date in orders view for o2, now is using shipped_at attribute instead of updated_at attribute
-- [#111333670] Listing the removed content from fixture view for simple planogram clients.
-- [#119388729] Fix Spreadsheet uploader to remove duplicate field mappings.
-- [#127824017] added auto populate order insert date upon selection of merchandising date
+- [#127306135] Magellan Store Number column default value is now cid
+- [#128249239, #128316145, #128318165] Comments List UI improvements
+- Changed the default logging level to INFO from DEBUG
+### Added
+- [#128248205] Add sortable Displays On column to comments list
+- [#111333670] List the removed content from fixture view for simple planogram clients.
+- [#127824017] Added auto populate order insert date upon selection of merchandising date
 - [#110272232] add guard for nil value in recent_views for recently_viewed_locations widget
-- [#127661637] Remove "Create new attributes" checkbox in Spreadsheet Upload for ATT
-- [#115356201] Convert VZT R12 filters to R15 filters
-- [13975] removed Rack::Cache
-- [#126888135] migration to create 4 missing settings for r12 to r15 clients
+- [#128026623] Add scheduled skuter task
+- [14082] Add shg-anz branding.
+- [#115356201] Add VZT R12 filters to R15
+- [#127219049] Create new 'Create Planogram Comment' page in Magellan
+- [#127118381] COX: Add permitted Fixture Type operations to required roles.
+- [#127118281] CAP: Add permitted Fixture Type operations to required roles.
+- [#127301971] Add CAP ONE Roles And Permissions
+- [#116729873] Add CAP ONE code from R12 to R15
+- [#116729695] Add COX code from R12 to R15
+- [#127930135] Add COX Roles And Permissions
+- [#127991761] Create UI for Campaign Fixtures Report for BBY
+- Include container_type in the content attributes listed for Content Replacement.
+- [#12793061] Content can belong to a campaign, and campaign is editable on the content page
+- Create the content category for Campaign Tag
+- [#127215025] Create new links in POG Comments subnav
+- [#128247111] provide methods to identify container types that have content and amend content replacement search to recognize container_type_id
+- [#128322397] Added Preview/Cancel/Save buttons at the top of create item comment page
+### Fixed
+- [14116] Fix SOTF_Wall report for ATT to include missing columns
+- [14163] Fix bug where CIReport wouldn't work if there were no dummy locations.
+- [#126136423] Fix the 'sent date' in orders view for o2 to use 'shipped_at' attribute instead of 'updated_at' attribute
+- [#119388729] Fix Spreadsheet uploader to remove duplicate field mappings.
 - [#125584861] Compliance and Execution Report for BBY timestamp and groupings
 - [#126640103] Hooked up CVD v1.8.23 (replace orion compliance with cached compliance)
 - [#125962693] Hooked up CVD v1.8.24 (fixed wrong message displayed for corporate region)
-- [#127215025] Create new links in POG Comments subnav
-- [#127219049] Create new create planogram comment page
 - [#127642285] Fixed marking a campaign for completion
-- [#127118381] COX: Assign permitted operations to required roles.
-- [#127118281] Assign permitted operations to required roles for existing fixture types.
-- [#127306135] Magellan Store Number column default value is now cid
-- [#127101701] Create new create content comment page
 - [#127591277] Now content with white spaced item numbers don't break fixtures on magellan when a comment exists
 - [#127591277] Remove new lines from item numbers on Critical Information Display Settings
 - [#127591277] Remove leading and trailing whitespaces from content item numbers before saving
-- [#127301971] CAP Roles And Permissions
-- [#116729873] Bring over CAP code from r12.
-- [#115355973] Convert CAP filters to r15.
-- [#116729695] Bring over COX code from R12 to R15.
 - [#127591277] Fixed bug for CriticalInformationDisplaySetting's item numbers starting with white spaces
-- [#127930135] COX: Roles And Permissions
-- Include container_type in the content attributes listed for Content Replacement.
-- [#127991761] Create UI for Campaign Fixtures Report for BBY
-- [#12793061] Content can belong to a campaign, and campaign is editable on the content page
-- Create the content category for Campaign Tag
 - [#126687271] Display location's issues tab based on same permissions as VMM
-- [#128244637 and #128251975] Changed title and body columns for comment list view
-### Fixed
-- [#128244637 and #128251975] Changed title and body columns for comment list view
+- [#128244637, #128251975] Changed title and body columns for comment list view
 - [#128434581] Fixed bug that was making content comments have fixture as displays_on value
-- [#128249239 and #128316145 and #128318165] comments list ui improvements
-- [#128355373] Cap One: problem with a label in the bottom of the flash view, it is partial visible
-- [#128332849] Cap One: label for not excecuted fixture is wrong, it's for compliance terminology
-- [#128322397] Preview/Cancel/Save buttons at the top or create item comment page
-- As part of pt128247111, provide methods to identify container types that have content and amend content replacement search to recognize container_type_id
 - correct logic used in Content.for_replacements
 - [#128062341] Make create item comment textarea shorter (2 lines)
 - [#128221575] Edit the att site config to allow for SAML SSO
 - [#128316145] Remove required from location filter select in create item comment page
-- [#128248205] Add sortable Displays On column to comments list
-- [] Changed the default logging level to INFO from DEBUG
 - [#115440587] Make styling changes to CAP ONE login page
 - [#128321949] Add Magellan like preview to create item comment page
 - [#128318165] Remove separate by comma label from comments form
@@ -345,9 +329,6 @@
 - [#130041321] Improve style for Create/Edit Comment page buttons
 - [#115458083] Add out of stock indication to orders form
 - [#130041321] Fixes to Save button enabled/disabled state
-### Changed
-- [#128664067] Improve display of planning counts when content hasn't yet been generated.
-### Fixed
 - [#129641877] Test for compliance by day report fixed.
 - [#129641877] Add capybara test for generating compliance by day report.
 - [#128158511] Location questionnaires no longer include fixture questionnaires.
@@ -379,19 +360,23 @@
 - [#13749] Fix "All Content" report for Layout Based Planogram client
 - [13749] Fix All Content Report for fixtures with no language
 - [14194] Fix callout not expanding issue on content list
-### Added
-- [#128026623] Add scheduled skuter task
-- [14082] Add shg-anz branding.
-- [#126167907] Hero Device with type -1 does not get any accessory columns
-- [#14174] Change column headers from `Wearables` to `Specialty` and `BMG` to `Misc`
-- [#14175] Change columns in SOTF wall report and excludes 5 additional fixtures from explorer wall columns
-### Fixed
 - [#128230961] Do not allow copying placements from a previous campaign if planogram is empty
 - [14129] Fix "Attachment provided without message body" on JobberWorker emails with attachments.
 - [128505679] Fix 500 error on display of shipment orders
 - [13551] Fix UpsShipmentEvent type name
 - [#128152105] Fix Magellan orders tab permisssion on floorplan fixture to match desktop version
 - [14153] Prevent error when importing campaign setting from previous campaign
+### Removed
+- [#127661637] Remove "Create new attributes" checkbox in Spreadsheet Upload for ATT
+
+
+
+
+
+
+
+
+
 
 ## [15.5.9.2] 2016-08-15
 ### Fixed
