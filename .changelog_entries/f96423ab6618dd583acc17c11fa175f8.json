@@ -1,1 +1,0 @@
-{"version":"15.5.2","type":"Changed","ticket":"","description":"Change arrangement of scopes in Fixture#find_templates so is_active true is included"}

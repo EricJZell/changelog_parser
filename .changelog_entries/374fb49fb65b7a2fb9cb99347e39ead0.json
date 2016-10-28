@@ -1,1 +1,0 @@
-{"version":"15.3.3","type":"Fixed","ticket":"","description":"Change ATT AFilter special cases back to constants in order to fix performance problems"}

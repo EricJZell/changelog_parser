@@ -1,1 +1,0 @@
-{"version":"15.3.0","type":"Fixed","ticket":"","description":"Data mainpulation for print_content moved to a services object. No change to user behavior."}

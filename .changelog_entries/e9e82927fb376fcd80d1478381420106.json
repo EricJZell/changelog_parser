@@ -1,1 +1,0 @@
-{"version":"15.5.2","type":"Fixed","ticket":"#116249917","description":"TemplatesController#generate_pick_and_pack uses Resque backgrounding system"}

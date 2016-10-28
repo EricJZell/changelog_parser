@@ -1,1 +1,0 @@
-{"version":"15.5.11","type":"Fixed","ticket":"#131116965","description":"TemplatesForFixtures now consider fixture_types that act as another fixture type"}

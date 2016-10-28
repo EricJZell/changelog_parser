@@ -1,1 +1,0 @@
-{"version":"15.4.14","type":"Added","ticket":"#110506016","description":"Script to add / alter permissions to remove dependence on \"deny\" & \"top-level\" permissions."}

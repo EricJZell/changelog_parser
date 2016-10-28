@@ -1,1 +1,0 @@
-{"version":"15.4.0","type":"Fixed","ticket":"","description":"Fixed end date bug for ReferenceFiles where time zone issues were causing end_date to be the day before it was set."}

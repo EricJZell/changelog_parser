@@ -1,1 +1,0 @@
-{"version":"15.4.6.1","type":"Fixed","ticket":"","description":"Fix bug with application mailer sending pre-production messages back to user in production"}

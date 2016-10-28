@@ -1,1 +1,0 @@
-{"version":"15.5.3","type":"Fixed","ticket":"#118603771","description":"Fix 500 server error when any role tries to resolve an issue"}

@@ -1,1 +1,0 @@
-{"version":"15.3.0","type":"Fixed","ticket":"","description":"Dont show 'ID' column for Campaign Planograms if there are no placement.labels"}

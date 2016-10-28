@@ -1,1 +1,0 @@
-{"version":"15.4.1","type":"Added","ticket":"#110807258","description":"Add a migration to set DEFAULT 'Fixture' NOT NULL to the :type attribute of the fixtures table."}

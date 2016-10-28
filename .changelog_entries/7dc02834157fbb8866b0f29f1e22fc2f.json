@@ -1,1 +1,0 @@
-{"version":"15.5.2.1","type":"Fixed","ticket":"13581","description":"Respect idle_timeout: invalidate idle sessions."}

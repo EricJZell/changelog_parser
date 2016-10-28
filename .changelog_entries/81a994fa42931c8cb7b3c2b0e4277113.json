@@ -1,1 +1,0 @@
-{"version":"15.5.10.2","type":"Added","ticket":"#130683289","description":"Add UBC r12 cronjobs to r15 and convert time to UTC time in crontabs."}

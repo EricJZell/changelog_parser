@@ -1,1 +1,0 @@
-{"version":"15.4.9.6","type":"Fixed","ticket":"","description":"info page (and possibly others) were broken due to links that didn't include the mode"}

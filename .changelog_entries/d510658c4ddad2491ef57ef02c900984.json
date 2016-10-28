@@ -1,1 +1,0 @@
-{"version":"15.5.10.1","type":"Fixed","ticket":"#129959409","description":"Fix 500 Error when using Upload Spreadsheet for location by using 'cid' field instead of 'attr002' for VZT"}

@@ -1,1 +1,0 @@
-{"version":"15.4.0","type":"Added","ticket":"","description":"Added a public facing API endpoint that provides user profile data in JSON format to Archway Orderfront. API requests require a GUID authorization token issued by RBM, as well as a decryption key issued by Archway to access user data via the API"}

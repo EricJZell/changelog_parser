@@ -1,1 +1,0 @@
-{"version":"15.5.2.3","type":"Fixed","ticket":"#118868239","description":"Skuter runs are reverting the is_compliant flag on fixture_placements"}

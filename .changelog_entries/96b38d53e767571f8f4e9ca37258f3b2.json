@@ -1,1 +1,0 @@
-{"version":"15.5.2","type":"Fixed","ticket":"#116249613","description":"remove spawn_request from FixturesController#planogram_coverage"}

@@ -1,1 +1,0 @@
-{"version":"15.5.9.4.2","type":"Fixed","ticket":"#130384639","description":"Add pagination to the Labor Assignments page to avoid having too many planograms in one page, which causes the dropdowns to be very slow."}

@@ -1,1 +1,0 @@
-{"version":"15.5.6","type":"Fixed","ticket":"#121597443","description":"Fix Category can't be blank error when creating new reference file even though a category is selected."}

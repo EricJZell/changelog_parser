@@ -1,1 +1,0 @@
-{"version":"15.4.7","type":"Changed","ticket":"#13106","description":"Improve performance of mark_content_is_active rake task around 17%"}

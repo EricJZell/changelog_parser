@@ -1,1 +1,0 @@
-{"version":"15.5.4","type":"Fixed","ticket":"","description":"'mark_campaigns_active' task now runs every 10 minutes instead of five"}

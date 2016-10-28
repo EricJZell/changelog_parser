@@ -1,1 +1,0 @@
-{"version":"15.5.9.3","type":"Fixed","ticket":"#127463475","description":"500 error when using a column that doesn't already exist in the Spreadsheet uploader."}

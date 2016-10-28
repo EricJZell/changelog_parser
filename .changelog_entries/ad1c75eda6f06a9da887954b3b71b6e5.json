@@ -1,1 +1,0 @@
-{"version":"15.5.10.1","type":"Fixed","ticket":"#129718731","description":"Fix 500 Server Error when creating a New Location by changing some category options from array to string for VZT"}

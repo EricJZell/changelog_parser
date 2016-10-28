@@ -1,1 +1,0 @@
-{"version":"15.5.11","type":"Changed","ticket":"#12664005","description":"Ensure CompletionSnapshot and VmmComplianceSnapshot run each night for all clients"}

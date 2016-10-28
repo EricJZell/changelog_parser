@@ -1,1 +1,0 @@
-{"version":"15.5.2.4","type":"Fixed","ticket":"","description":"Fixed bug where existing campaigns were not being found by BBY Planogram Product Position feed due to timestamp"}

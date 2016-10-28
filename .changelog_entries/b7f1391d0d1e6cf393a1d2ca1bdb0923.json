@@ -1,1 +1,0 @@
-{"version":"15.5.10","type":"Changed","ticket":"#126431355","description":"Import validator now counts the total number of errors on an imported file, instead of the number of lines with errors"}
