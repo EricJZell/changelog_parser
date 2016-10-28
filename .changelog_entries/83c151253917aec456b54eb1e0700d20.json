@@ -1,0 +1,1 @@
+{"version":"15.4.0","type":"Added","ticket":"111011148","description":"Aurora: new layout/design for setting password expiration; migration for new User column 'password_updated_at'"}

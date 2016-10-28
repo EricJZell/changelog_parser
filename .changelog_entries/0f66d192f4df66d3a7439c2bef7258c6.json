@@ -1,0 +1,1 @@
+{"version":"15.4.6","type":"Fixed","ticket":"13031","description":"Check if totals exists when there are 1 or no locations to be showed in the report."}

@@ -1,0 +1,1 @@
+{"version":"15.5.6","type":"Changed","ticket":"13791","description":"Prevent feedback comment from fetching location on objects with no location method defined"}

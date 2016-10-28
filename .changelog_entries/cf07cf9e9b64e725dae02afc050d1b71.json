@@ -1,0 +1,1 @@
+{"version":"15.3.3","type":"Fixed","ticket":"12775","description":"Fix 500 when uploading image to the gallery via the fixture (pull2660)"}

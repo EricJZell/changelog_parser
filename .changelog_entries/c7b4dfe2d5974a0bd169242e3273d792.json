@@ -1,0 +1,1 @@
+{"version":"15.5.10","type":"Fixed","ticket":"#126631159","description":"Fix planogram update fails by preventing a 'partial update' and displaying an error message to the user"}

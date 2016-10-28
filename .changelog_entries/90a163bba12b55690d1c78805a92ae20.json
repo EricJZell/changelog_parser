@@ -1,0 +1,1 @@
+{"version":"15.3.10","type":"Fixed","ticket":"pr2962","description":"Skuter: correct build_indexed_fixtures so it captures changes to a location's fixtures"}

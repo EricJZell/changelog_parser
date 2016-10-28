@@ -1,0 +1,1 @@
+{"version":"15.3.2","type":"Fixed","ticket":"","description":"Upon migrating a client, unreferenced content with nil item number and nil name are deleted"}

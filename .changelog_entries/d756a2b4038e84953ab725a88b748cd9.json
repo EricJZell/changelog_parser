@@ -1,0 +1,1 @@
+{"version":"15.3.2","type":"Fixed","ticket":"","description":"VZW Filter import migration correctly handles filter 1104, and uses the new AFilterController coumn_index method"}

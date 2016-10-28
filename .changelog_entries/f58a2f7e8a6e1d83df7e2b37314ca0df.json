@@ -1,0 +1,1 @@
+{"version":"15.4.10","type":"Fixed","ticket":"13107","description":"let content settings determine fixture blinking without being over-ruled by upcoming_lights"}

@@ -1,0 +1,1 @@
+{"version":"15.5.0","type":"Added","ticket":"","description":"Added Sales Order to the report page so that Optus users with proper permissions can generate and download the Sales Order report from the UI. Permissions are created for Optus roles who can generate the report"}

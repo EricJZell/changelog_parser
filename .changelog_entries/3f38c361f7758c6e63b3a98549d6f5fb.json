@@ -1,0 +1,1 @@
+{"version":"15.5.2","type":"Fixed","ticket":"#116249701","description":"Fixed 'peg_qty_min' undefined method for FixtureTemplateContent"}

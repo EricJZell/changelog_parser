@@ -1,0 +1,1 @@
+{"version":"15.5.4.4","type":"Fixed","ticket":"#119741243","description":"Fixed race condition in filter caching of new campaigns"}

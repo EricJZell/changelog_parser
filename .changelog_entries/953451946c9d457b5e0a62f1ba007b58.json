@@ -1,0 +1,1 @@
+{"version":"15.5.10","type":"Fixed","ticket":"#128790065","description":"Fix 500 error in New Item Tab in view planogram page by adding floorplan_tabs new_items  and group_by config to COX"}

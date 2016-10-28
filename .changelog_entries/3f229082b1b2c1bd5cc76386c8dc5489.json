@@ -1,0 +1,1 @@
+{"version":"15.4.9.12","type":"Fixed","ticket":"","description":"mark_content_is_active skips locations with zero fixtures."}

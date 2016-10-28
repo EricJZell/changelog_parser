@@ -1,0 +1,1 @@
+{"version":"15.4.9.4","type":"Changed","ticket":"13185","description":"Fixed caching of locations which postdate preceding campaigns"}

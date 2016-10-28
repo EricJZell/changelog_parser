@@ -1,0 +1,1 @@
+{"version":"15.5.9.3","type":"Added","ticket":"#110272232","description":"add guard for nil value in recent_views for recently_viewed_locations widget"}

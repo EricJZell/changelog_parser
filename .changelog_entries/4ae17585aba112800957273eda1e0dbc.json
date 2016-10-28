@@ -1,0 +1,1 @@
+{"version":"15.5.3.1","type":"Fixed","ticket":"#103196124","description":"Made campaign included_for_completion dependent on 'completion_dashboard' Setting"}

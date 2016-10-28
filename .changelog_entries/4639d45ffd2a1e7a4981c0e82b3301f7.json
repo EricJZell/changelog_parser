@@ -1,0 +1,1 @@
+{"version":"15.4.9.5","type":"Changed","ticket":"13357, 13382","description":"Forked the journey gem and patched a bug that's been fixed in upstream rails but will not be backported into journey"}

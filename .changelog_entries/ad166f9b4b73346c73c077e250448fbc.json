@@ -1,0 +1,1 @@
+{"version":"15.4.9","type":"Fixed","ticket":"#113861937","description":"Planogram import now makes sure to set fixture type to parent acts_as in bby import"}

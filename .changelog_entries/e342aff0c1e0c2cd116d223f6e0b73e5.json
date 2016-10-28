@@ -1,0 +1,1 @@
+{"version":"15.5.3.2","type":"Fixed","ticket":"#13486","description":"Undelete category if soft deleted before destroying"}

@@ -1,0 +1,1 @@
+{"version":"15.4.0","type":"Fixed","ticket":"12745","description":"When editing a ReferenceFile, don't default to adding an end_date."}

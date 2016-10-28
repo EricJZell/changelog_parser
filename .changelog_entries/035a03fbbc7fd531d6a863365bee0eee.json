@@ -1,0 +1,1 @@
+{"version":"15.5.2","type":"Fixed","ticket":"#117386791","description":"Add before_validation instead before_save in ContainerType uniq name"}

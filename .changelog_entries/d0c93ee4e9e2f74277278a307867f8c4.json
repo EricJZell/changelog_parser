@@ -1,0 +1,1 @@
+{"version":"15.5.9.9","type":"Fixed","ticket":"14315","description":"Fix o2 process_content_feed rake task to handle ISO-8859-1 characters like \"£\"."}

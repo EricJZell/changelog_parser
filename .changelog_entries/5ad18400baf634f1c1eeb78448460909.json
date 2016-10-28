@@ -1,0 +1,1 @@
+{"version":"15.5.3","type":"Fixed","ticket":"#118606209","description":"Remove keys Active/Future from edit filter when no table is present"}

@@ -1,0 +1,1 @@
+{"version":"15.5.6","type":"Fixed","ticket":"#113164341","description":"When creating a new content order in PCS, the new order is now considered when checking if the daily limit has been exceeded."}

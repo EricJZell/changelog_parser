@@ -1,0 +1,1 @@
+{"version":"15.5.3","type":"Fixed","ticket":"#119022237","description":"Don't run compliance snapshot on a location that does not have a current campaign"}

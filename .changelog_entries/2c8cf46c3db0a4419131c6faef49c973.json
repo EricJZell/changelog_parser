@@ -1,0 +1,1 @@
+{"version":"15.4.11.3","type":"Fixed","ticket":"13438","description":"Url-Decode Attribute to Column map parameter values that the spreadsheet uploader passes between set and verify requests"}

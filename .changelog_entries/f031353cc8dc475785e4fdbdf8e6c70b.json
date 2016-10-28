@@ -1,0 +1,1 @@
+{"version":"15.5.10.1","type":"Fixed","ticket":"#129711595","description":"Fix CSS 404 error in the console by only loading reference.scss if the file exists"}

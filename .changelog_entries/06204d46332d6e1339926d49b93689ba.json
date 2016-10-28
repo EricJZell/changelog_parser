@@ -1,0 +1,1 @@
+{"version":"15.4.9.12","type":"Fixed","ticket":"#116249523","description":"CampaignsController#campaign_workbook setup for Resque background job"}

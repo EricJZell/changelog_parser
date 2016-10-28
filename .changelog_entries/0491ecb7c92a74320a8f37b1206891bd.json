@@ -1,0 +1,1 @@
+{"version":"15.5.11","type":"Changed","ticket":"#131116965","description":"Completion Snapshot uses initially noncompliant fixtures as the basis for calculations."}

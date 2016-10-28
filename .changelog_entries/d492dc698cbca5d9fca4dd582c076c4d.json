@@ -1,0 +1,1 @@
+{"version":"15.5.11","type":"Fixed","ticket":"#131116965","description":"Can't run Completion Snapshot if there isn't a current campaign for completion"}

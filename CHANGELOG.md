@@ -369,15 +369,6 @@
 ### Removed
 - [#127661637] Remove "Create new attributes" checkbox in Spreadsheet Upload for ATT
 
-
-
-
-
-
-
-
-
-
 ## [15.5.9.2] 2016-08-15
 ### Fixed
 - [#126885955] Fix location search in "stores displaying this planogram"

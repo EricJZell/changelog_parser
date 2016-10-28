@@ -1,0 +1,1 @@
+{"version":"15.5.0","type":"Changed","ticket":"#114804283","description":"\"Report problem\" button in floorplan is greyed out if user does not have permission to use it."}

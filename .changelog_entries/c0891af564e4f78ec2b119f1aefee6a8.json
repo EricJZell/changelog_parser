@@ -1,0 +1,1 @@
+{"version":"15.5.7","type":"Fixed","ticket":"115792485","description":"Fixed an unescaped html in campaigns list"}

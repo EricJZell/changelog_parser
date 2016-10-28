@@ -1,0 +1,1 @@
+{"version":"15.3.9","type":"Fixed","ticket":"12636","description":"Jobber the SKU Position Report, Refactor SkuPositionReport to be 10x faster"}

@@ -1,0 +1,1 @@
+{"version":"15.3.7","type":"Fixed","ticket":"13092","description":"Stop excessive (and/or segfaulting) Image creation when uploading Content zip files."}

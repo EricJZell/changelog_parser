@@ -1,0 +1,1 @@
+{"version":"15.5.9.3","type":"Fixed","ticket":"#127591277","description":"Now content with white spaced item numbers don't break fixtures on magellan when a comment exists"}

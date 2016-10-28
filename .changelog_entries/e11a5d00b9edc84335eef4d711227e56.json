@@ -1,0 +1,1 @@
+{"version":"15.5.9.3.1","type":"Fixed","ticket":"#130232215","description":"Device Brand Presence Report now renders a helpful message if the client doesn't have the necessary configurations for the report."}

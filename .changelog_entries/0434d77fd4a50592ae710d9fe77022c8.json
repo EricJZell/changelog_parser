@@ -1,0 +1,1 @@
+{"version":"15.5.11","type":"Changed","ticket":"#131116965","description":"Compliance Snapshot calculates compliance as count of fixtures which are planogrammed and compliant divided by those that are planogrammed"}

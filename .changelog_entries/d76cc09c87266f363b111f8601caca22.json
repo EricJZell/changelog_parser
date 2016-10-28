@@ -1,0 +1,1 @@
+{"version":"15.5.2","type":"Fixed","ticket":"13475","description":"Fix failure to delete a particular fixture that was added and deleted in the same campaign"}

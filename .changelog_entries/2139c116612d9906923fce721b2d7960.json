@@ -1,0 +1,1 @@
+{"version":"15.5.9.9","type":"Changed","ticket":"14315","description":"o2 process_content_feed rake task makes a backup of the feed file on the SFTP server, rather than deleting it from the server."}

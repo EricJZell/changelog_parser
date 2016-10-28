@@ -1,0 +1,1 @@
+{"version":"15.5.9.3","type":"Fixed","ticket":"14096","description":"Fix Planogram Skus report 500 Error by not sorting an array of arrays with nils"}

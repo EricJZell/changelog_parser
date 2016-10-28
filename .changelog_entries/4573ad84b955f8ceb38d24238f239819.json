@@ -1,0 +1,1 @@
+{"version":"15.4.9","type":"Changed","ticket":"13247","description":"creates a photo FixtureComplianceRequirement for a copied template if parent template requires photo compliance."}

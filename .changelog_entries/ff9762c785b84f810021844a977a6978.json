@@ -1,0 +1,1 @@
+{"version":"15.5.9.3","type":"Fixed","ticket":"#127587801","description":"Resolving a feedback that blocks compliance now returns the fixture to compliant state in non SIMPLE_PLANOGRAMS clients"}
