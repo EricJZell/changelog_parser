@@ -40,16 +40,18 @@ class ChangelogParser
     description = get_description(line)
     ticket = get_ticket(line)
     info = {
-      version: version,
       type: type,
       ticket: ticket,
-      description: description
+      url: "",
+      description: description,
+      version: version,
+      tags: []
     }.to_json
     @entries << info
   end
 
   def parse_changelog
-    changelog_lines = File.readlines('CHANGELOG.md')
+    changelog_lines = File.readlines('GENERATED_CHANGELOG.md')
     changelog_lines.each_with_index do |line, index|
       line.strip!
       if line.start_with?('## [')
@@ -68,7 +70,7 @@ class ChangelogParser
   def write_to_files
     @entries = @entries.uniq
     @entries.each do |entry|
-      File.write("changelog_entries/#{SecureRandom.hex}.json", entry)
+      File.write(".changelog_entries/#{SecureRandom.hex}.json", entry)
     end
   end
 
