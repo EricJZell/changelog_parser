@@ -25,4 +25,4 @@ versions.each do |version|
     end
   end
 end
-File.write('REVERSE_GENERATED_CHANGELOG.md', changelog)
+File.write('GENERATED_CHANGELOG.md', changelog)

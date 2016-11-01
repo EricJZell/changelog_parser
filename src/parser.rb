@@ -51,7 +51,7 @@ class ChangelogParser
   end
 
   def parse_changelog
-    changelog_lines = File.readlines('GENERATED_CHANGELOG.md')
+    changelog_lines = File.readlines('CHANGELOG.md')
     changelog_lines.each_with_index do |line, index|
       line.strip!
       if line.start_with?('## [')
