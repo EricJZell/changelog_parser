@@ -1,4 +1,5 @@
-require 'pry'
+#!/usr/bin/env ruby
+
 require 'json'
 class ChangelogGenerator
   attr_accessor :changelog_hash, :changelog
@@ -42,7 +43,7 @@ class ChangelogGenerator
         end
       end
     end
-    File.write('GENERATED_CHANGELOG.md', @changelog)
+    File.write('CHANGELOG.md', @changelog)
   end
 end
 
