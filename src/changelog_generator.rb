@@ -43,7 +43,7 @@ class ChangelogGenerator
         end
       end
     end
-    File.write('CHANGELOG.md', @changelog)
+    File.write('9CHANGELOG.md', @changelog)
   end
 end
 
